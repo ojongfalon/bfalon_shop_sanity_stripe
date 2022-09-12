@@ -16,9 +16,10 @@ const FooterBanner = ({footerBanner:{discount,largeText1,largeText2,saleTime,sma
           <p>{smallText} </p>
           <h3>{midText}</h3>
           <p>{desc}</p>
-          <Link href={`/product/${heroBanner.product}`}>
-            <button type='button'>{heroBanner.buttonText}</button>
+          <Link href={`/product/${product}`}>
+            <button type='button'>{buttonText}</button>
           </Link>
+          
         </div>
         <img
           src={urlFor(image)}
