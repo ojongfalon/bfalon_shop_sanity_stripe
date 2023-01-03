@@ -62,7 +62,7 @@ const ProductDetails = ({ product, products }) => {
 					</div>
 					<h4>Details: </h4>
 					<p>{details}</p>
-					<p className='price'>Rs {price}</p>
+					<p className='price'>{price} XAF</p>
 					<div className='quantity'>
 						<h3>Quantity:</h3>
 						<p className='quantity-desc'>
@@ -90,7 +90,7 @@ const ProductDetails = ({ product, products }) => {
 			</div>
 
 			<div className='maylike-products-wrapper'>
-				<h2>You may also like</h2>
+				<h2>Related Products</h2>
 				<div className='marquee'>
 					<div className='maylike-products-container track'>
 						{products.map((item) => (
