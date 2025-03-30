@@ -31,21 +31,6 @@ export const product = {
             title: 'Price',
             type: 'number',
         },
-                {
-            name: 'rate',
-            title: 'Rate',
-            type: 'number',
-            options: {
-                maxLength: 5,
-                default:1,
-            }
-        },
-        {
-            name: 'reviews',
-            title: 'Reviews',
-            type:'number',
-        },
-
         {
             name: 'details',
             title: 'Details',

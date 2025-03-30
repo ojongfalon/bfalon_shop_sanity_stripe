@@ -1,4 +1,4 @@
-export default {
+export const banner = {
     name: 'banner',
     title: 'Banner',
     type: 'document',
@@ -9,7 +9,7 @@ export default {
             type: 'image',
             options: {
                 hotspot: true,
-            },
+            }
         },
         {
             name: 'buttonText',
@@ -55,6 +55,6 @@ export default {
             name: 'saleTime',
             title: 'SaleTime',
             type: 'string',
-        },
-    ],
-};
+        }
+    ]
+}
