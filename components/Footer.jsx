@@ -4,7 +4,7 @@ import {AiFillGithub, AiOutlineMail} from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <p>2022 OJB Farm Products. All rights reserved</p>
+      <p>2022 OJB Headphones All rights reserved</p>
       <p className="icons">
         <a href="https://github.com/ojongfalon"><AiFillGithub /></a>
         
